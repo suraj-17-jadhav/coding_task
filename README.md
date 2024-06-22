@@ -11,7 +11,7 @@ git clone [https://github.com/yourusername/yourrepository.git](https://github.co
 `npm install`
 
 ## Run the server (from api directory)
-`npm run server`
+`npm start`
 
 ## Run the client (from client directory)
 `npm run dev`
