@@ -3,11 +3,11 @@ git clone [https://github.com/yourusername/yourrepository.git](https://github.co
 `cd roxiler-task`
 
 ## Install server dependencies
-`cd ./api` \
+`cd ./api`\
 `npm install`
 
 ## Install client dependencies
-`cd ../client` \ 
+`cd ../client`\ 
 `npm install`
 
 ## Run the server (from api directory)
