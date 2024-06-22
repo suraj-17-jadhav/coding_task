@@ -4,10 +4,12 @@ cd roxiler-task
 
 ## Install server dependencies
 cd ./api
+< br / >
 npm install
 
 ## Install client dependencies
-cd ../client
+cd ../client 
+< br / >
 npm install
 
 ## Run the server (from api directory)
