@@ -82,7 +82,7 @@ const BarChart = ({ month, months }) => {
   return (
     <div
       style={{ width: "80%", height: "600px", margin: "0 auto" }}
-      className='pb-10'
+      className='mt-10 h-full'
     >
       <Heading>Bar Chart Stat- {monthName}</Heading>
       <Bar
