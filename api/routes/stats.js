@@ -9,6 +9,7 @@ router.get("/initialize", async (req, res) => {
       "https://s3.amazonaws.com/roxiler.com/product_transaction.json",
     );
     const data = response.data;
+    console.log(data)
     const insertedData = await Stat.insertMany(data);
     res.status(200).json(insertedData);
   } catch (err) {
